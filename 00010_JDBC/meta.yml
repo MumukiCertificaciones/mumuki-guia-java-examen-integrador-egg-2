@@ -1,0 +1,24 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Statement
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: ResultSet
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Connection
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: DriverManager
+  checked: false
+name: JDBC

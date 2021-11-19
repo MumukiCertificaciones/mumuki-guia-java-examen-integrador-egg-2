@@ -1,0 +1,24 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Application-context.xml
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Application-propperties.yml
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: POM.xml
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dependencies-propperties.xml
+  checked: false
+name: Maven

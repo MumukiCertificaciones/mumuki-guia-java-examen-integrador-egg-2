@@ -1,0 +1,1 @@
+> ¿Cuál de los siguientes se crean anteponiendo la palabra `static` a su declaración?

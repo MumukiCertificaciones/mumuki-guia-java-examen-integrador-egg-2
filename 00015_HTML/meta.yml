@@ -1,0 +1,24 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Hidden
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: HideText
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Password
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: HiddenValue
+  checked: false
+name: HTML
