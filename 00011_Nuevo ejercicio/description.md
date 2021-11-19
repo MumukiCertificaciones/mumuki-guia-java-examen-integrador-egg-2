@@ -1,0 +1,1 @@
+> ¿Cual de estas clases **NO** es parte de la arquitectura de _JPA_?
