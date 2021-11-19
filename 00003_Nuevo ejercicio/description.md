@@ -1,0 +1,1 @@
+> ¿Cuál de las siguientes relaciones es la más simple?
