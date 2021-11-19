@@ -1,0 +1,1 @@
+> Elegir qué anotación se aplica a la siguiente relación: "un `Perro` pertenece a un `Dueño`":
