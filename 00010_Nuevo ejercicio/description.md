@@ -1,0 +1,1 @@
+> ¿Cuál es la clase encargada de obtener los datos de la base de datos en _JDBC_?
