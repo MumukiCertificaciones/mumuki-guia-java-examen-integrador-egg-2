@@ -1,0 +1,1 @@
+> ¿Cuál de estas **NO** es un tipo de herencia en _Java_?
