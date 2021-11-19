@@ -1,0 +1,1 @@
+> En relación al atributo `class` de _CSS_, ¿cuál de las siguientes afirmaciones es verdadera?
