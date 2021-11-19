@@ -1,0 +1,11 @@
+---
+name: Examen integrador EGG 2
+locale: es
+type: learning
+beta: false
+teacher_info: ''
+language: java
+id_format: "%05d"
+order:
+- 1
+private: true
