@@ -1,0 +1,1 @@
+> ¿Qué indica el código _HTTP_ `301`?
