@@ -1,7 +1,7 @@
 Se te pide computar la potencia de un número implementando una calculadora. 
 
 Vamos a usar la clase `MiCalculadora` que consiste de un solo método: `potencia(int,int)`. Este método
-toma dos enteros `n` y `p` como parámetros y devuelve la n-potencia de p (es decir p elevado a la n).
+toma dos enteros `n` y `p` como parámetros y devuelve la p-potencia de n (es decir, n elevado a la p).
 
 Observaciones:
 
@@ -13,6 +13,6 @@ las excepciones correspondientes según lo dicho anteriormente.
 
 Resultados esperados:
 
-* _Si ingresa el **n = 8** y **p = 2*, devolverá **64**._
-* _Si ingresa el **n = 0** y **p = 2*, devolverá **"n o p no pueden ser 0**._
-* _Si ingresa el **n = -8** y **p = 2*, devolverá **"n o p no pueden ser negativos"**._
+* _Si ingresa el **n = 8** y **p = 2**, devolverá **64**._
+* _Si ingresa el **n = 0** y **p = 2**, devolverá **"n o p no pueden ser 0**._
+* _Si ingresa el **n = -8** y **p = 2**, devolverá **"n o p no pueden ser negativos"**._
