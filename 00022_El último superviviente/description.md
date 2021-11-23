@@ -1,9 +1,9 @@
 Tenemos una cadena de letras y un arreglo vector de números.
 
-* Los números indican la posición, en orden, de las letras que deben ser removidas, desde el principio del vector.
-* Después de cada letra removida, el tamaño de la cadena disminuye (no quedan espacios vacíos).
+* Los `numeros` indican la posición, en orden, de las letras que deben ser removidas, desde el principio del vector.
+* Luego de remover una letra, el tamaño de la cadena disminuye (no quedan espacios vacíos).
 
-> Definí una función que devolvuelva la ultima letra superviviente.
+> Definí una función que devuelva la ultima letra superviviente.
 
 Por ejemplo, si el string original fuera "zbk" y el array [0, 1], el paso a paso sería así:
 
