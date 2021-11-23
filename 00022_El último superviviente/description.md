@@ -11,7 +11,7 @@ Por ejemplo, si el string original fuera "zbk" y el array [0, 1], el paso a paso
 str = "zbk", arr = [0, 1]
 str = "bk", arr = [1]
 str = "b", arr = []
-retorna 'b';
+return "b";
 ```
 
 Resultados esperados:
