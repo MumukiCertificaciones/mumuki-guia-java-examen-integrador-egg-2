@@ -21,7 +21,7 @@
       },
       "poblacion_2020": {
         "type": "INT"
-      },
+      }
     }
   }'>
 </div>
