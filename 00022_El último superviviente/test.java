@@ -3,7 +3,7 @@ Examen pr;
 @Before
 public void before() {
   pr = new Examen();
-  ArrayList<int> vector_1 = new ArrayList(Arrays.asList((1, 0)));
+  ArrayList<Integer> vector_1 = new ArrayList(Arrays.asList((1, 0)));
 }
 
 @Test
