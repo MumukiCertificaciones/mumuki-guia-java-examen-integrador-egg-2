@@ -7,5 +7,5 @@ public void before() {
 
 @Test
 public void ASD_con_vector_1_0_devuelve_D() {
-	Assert.assertEquals("D", pr.ultimoSuperviviente("ASD", [0,1]));
+	Assert.assertEquals("D", pr.ultimoSuperviviente("ASD", new int[] {0, 1}));
 }
