@@ -1,4 +1,4 @@
-> Seleccionar la cantidad de países donde su población en 2020 esté entre 30 millones y 40 millones.
+> Seleccionar la cantidad de países donde su población en 2020 esté entre 30 millones y 50 millones.
 
 <div class='mu-erd'
   data-entities='{
