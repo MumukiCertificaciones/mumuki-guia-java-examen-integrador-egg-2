@@ -23,7 +23,7 @@ public void si_n_es_negativo_lanza_excepcion() {
 }
 
 
-@Test(expected = nombre_excepcion.class)
+@Test(expected = Exception.class)
 public void si_p_es_0_lanza_excepcion() {
 	pr.potencia(3, 0);
 }
