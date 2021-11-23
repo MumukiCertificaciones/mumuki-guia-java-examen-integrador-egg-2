@@ -5,13 +5,13 @@ Tenemos una cadena de letras y un arreglo vector de números.
 
 > Definí una función que devolvuelva la ultima letra superviviente.
 
-Ejemplo:
+Por ejemplo, si el string original fuera "zbk" y el array [0, 1], el paso a paso sería así:
 
 ```java
 str = "zbk", arr = [0, 1]
 str = "bk", arr = [1]
 str = "b", arr = []
-return 'b';
+retorna 'b';
 ```
 
 Resultados esperados:
