@@ -17,7 +17,7 @@ public void Burger_con_vector_4_3_2_1_0_devuelve_r() {
 
 @Test
 public void Milanga_con_vector_6_4_2_1_devuelve_Mag() {
-	Assert.assertEquals("Mag", pr.ultimoSuperviviente("Milanga"));
+	Assert.assertEquals("Mag", pr.ultimoSuperviviente("Milanga", new int[] {6,4,2,1}));
 }
 
 @Test
