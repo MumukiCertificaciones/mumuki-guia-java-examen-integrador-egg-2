@@ -9,23 +9,3 @@ public void before() {
 public void ASD_con_vector_1_0_devuelve_D(){
 	Assert.assertEquals("D", ultimoSuperviviente("ASD", [1, 0]));	
 }
-
-@Test
-public void Burger_con_vector_4_3_2_1_0_devuelve_r(){
-	Assert.assertEquals("r", ultimoSuperviviente("Burger", [4,3,2,1,0]));
-}
-
-@Test
-public void Milanga_con_vector_6_4_2_1_devuelve_Mag(){
-	Assert.assertEquals("Mag", ultimoSuperviviente("Milanga"));
-}
-
-@Test
-public void Vaso_con_vector_vacio_devuelve_Vaso(){
-	Assert.assertEquals("Vaso", ultimoSuperviviente("Vaso", []));
-}
-
-@Test
-public void ExamenFinal_con_vector_10_9_8_7_6_5_4_3_2_1_devuelve_E(){
-	Assert.assertEquals("E", ultimoSuperviviente("ExamenFinal"; [10,9,8,7,6,5,4,3,2,1]));
-}
