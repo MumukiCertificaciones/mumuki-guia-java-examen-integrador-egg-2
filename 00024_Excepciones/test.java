@@ -10,7 +10,7 @@ public void para_2_a_la_8_devuelve_64() throws Exception {
 	Assert.assertEquals(64, pr.potencia(8, 2));
 }
 
-@Test(expected = nombre_excepcion.class)
+@Test(expected = Exception.class)
 public void si_n_es_0_lanza_excepcion() {
 	pr.potencia(0, 2);
 }
