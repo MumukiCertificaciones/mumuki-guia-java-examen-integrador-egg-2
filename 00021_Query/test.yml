@@ -1,4 +1,4 @@
 type: datasets
 expected: |
-  COUNT(*) |
-  3 |
+  COUNT(*)|
+  3|
