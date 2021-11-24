@@ -6,7 +6,7 @@ public void before() {
 }
 
 @Rule
-public ExpectedException exceptionRule = ExpectedException.none();
+public Exception exceptionRule = Exception.none();
 
 
 @Test
