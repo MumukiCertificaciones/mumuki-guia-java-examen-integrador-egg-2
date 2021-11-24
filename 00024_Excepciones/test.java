@@ -1,8 +1,8 @@
-Examen pr;
+MiCalculadora pr;
 
 @Before
 public void before() {
-  pr = new Examen();
+  pr = new MiCalculadora();
 }
 
 @Test
