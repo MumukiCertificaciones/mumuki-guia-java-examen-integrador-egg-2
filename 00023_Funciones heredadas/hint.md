@@ -1,0 +1,1 @@
+Recordá el uso de `extends` y `super`. También se sugiere hacer un diagrama de herencia para facilitar el entendimiento. :wink:

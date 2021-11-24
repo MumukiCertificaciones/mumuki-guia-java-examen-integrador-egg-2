@@ -1,32 +1,23 @@
-class D {
-  public int func(int a) {
-   // Acá escribí la lógica necesaria
-  }
+public class A {
+    protected int func(int a) {
+        return ;
+    }
 }
 
-Class A{
-  public ClaseA() {
-  }
-  Protected int func(int a){
-    a = a * 2;
-    return a;
-  }
+public class B extends A {
+    protected int func(int a) {
+        return ;
+    }
 }
 
-Class B{
-  public ClaseB() {
-  }
-  Protected int func(int a){
-    a = a * 3;
-    return a;
-  }
+public class C extends B {
+    protected int func(int a) {
+        return ;
+    }
 }
 
-Class C{
-  public ClaseC() {
-  }
-  Protected int func(int a){
-    a = a * 5;
-    return a;
-  }
+public class D extends C {
+    protected int func(int a) {
+        return ;
+    }
 }
