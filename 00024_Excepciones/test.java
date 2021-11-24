@@ -10,7 +10,7 @@ public ExpectedException exceptionRule = ExpectedException.none();
 
 
 @Test
-public void si_n_es_0_lanza_excepcion() {
+public void si_n_es_0_lanza_excepcion() throws Exception{
     exceptionRule.expect(Exception.class);
     exceptionRule.expectMessage("n o p no pueden ser cero");
     pr.potencia(0, 2);
@@ -25,3 +25,4 @@ public void para_8_a_la_2_devuelve_64() throws Exception {
 public void para_2_a_la_10_devuelve_1024() throws Exception {
 	Assert.assertEquals(1024, pr.potencia(2, 10), 0);
 }
+
