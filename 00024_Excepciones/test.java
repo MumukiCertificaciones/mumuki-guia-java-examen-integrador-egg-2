@@ -6,7 +6,7 @@ public void before() {
 }
 
 @Rule
-public Exception exceptionRule = new Exception();
+public ExpectedException exceptionRule = ExpectedException.none();
 
 
 @Test
@@ -21,7 +21,6 @@ public void para_2_a_la_10_devuelve_1024() throws Exception {
 
 @Test(expected = Exception.class)
 public void si_n_es_0_lanza_excepcion() {
-    exceptionRule.expect(Exception.class);
     exceptionRule.expectMessage("n o p no pueden ser negativos");
     pr.potencia(0, 2);
 }
