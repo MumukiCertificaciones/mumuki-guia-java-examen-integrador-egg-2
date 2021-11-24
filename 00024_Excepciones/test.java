@@ -15,7 +15,7 @@ public void para_2_a_la_10_devuelve_1024() throws Exception {
 	Assert.assertEquals(1024, pr.potencia(2, 10), 0);
 }
 
-@Test
+@Test(expected = Exception.class)
 public void si_n_es_0_lanza_excepcion() throws Exception {
     Exception exception = assertThrows(Exception.class, () -> {
         pr.potencia(0, 2);
@@ -26,3 +26,6 @@ public void si_n_es_0_lanza_excepcion() throws Exception {
 
     assertTrue(actualMessage.contains(expectedMessage));
 }
+
+
+
