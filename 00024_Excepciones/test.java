@@ -19,8 +19,9 @@ public void para_2_a_la_10_devuelve_1024() throws Exception {
 	Assert.assertEquals(1024, pr.potencia(2, 10), 0);
 }
 
-@Test(expected = Exception.class)
+@Test
 public void si_n_es_0_lanza_excepcion() {
+    exceptionRule.expect(Exception.class);
     exceptionRule.expectMessage("n o p no pueden ser negativos");
     pr.potencia(0, 2);
 }
