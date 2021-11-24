@@ -31,7 +31,7 @@ public void si_n_es_negativo_lanza_excepcion() throws Exception{
       pr.potencia(-5,2);
       Assert.fail("Debería haber lanzado una excepción");
     }catch(Exception e){
-      Assert.assertEquals("n o p no pueden ser negativo", e.getMessage());
+      Assert.assertEquals("n o p no pueden ser negativos", e.getMessage());
     }
 }
 
@@ -41,7 +41,7 @@ public void si_p_es_negativo_lanza_excepcion() throws Exception{
       pr.potencia(3,-4);
       Assert.fail("Debería haber lanzado una excepción");
     }catch(Exception e){
-      Assert.assertEquals("n o p no pueden ser negativo", e.getMessage());
+      Assert.assertEquals("n o p no pueden ser negativos", e.getMessage());
     }
 }
 
