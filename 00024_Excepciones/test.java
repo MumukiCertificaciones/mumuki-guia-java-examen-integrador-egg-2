@@ -5,10 +5,6 @@ public void before() {
   pr = new MiCalculadora();
 }
 
-@Rule
-public org.junit.rules.ExpectedException exceptionRule = org.junit.rules.ExpectedException.none();
-
-
 @Test
 public void si_n_es_0_lanza_excepcion() throws Exception{
     exceptionRule.expect(Exception.class);
