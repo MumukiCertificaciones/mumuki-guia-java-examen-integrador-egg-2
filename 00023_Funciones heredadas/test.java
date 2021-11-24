@@ -17,10 +17,5 @@ public void con_4_se_obtiene_512() {
 
 @Test
 public void con_10_se_obtiene_20000() {
-	Assert.assertEquals(20000, pr.func(5));
-}
-
-@Test
-public void mi_test() {
-	Assert.assertEquals(10290, pr.func(7));
+	Assert.assertEquals(20000, pr.func(10));
 }
