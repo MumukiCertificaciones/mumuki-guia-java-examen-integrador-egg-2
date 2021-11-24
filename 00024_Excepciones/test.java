@@ -7,9 +7,12 @@ public void before() {
 
 @Test
 public void si_n_es_0_lanza_excepcion() throws Exception{
-    exceptionRule.expect(Exception.class);
-    exceptionRule.expectMessage("n o p no pueden ser cero");
-    pr.potencia(0, 2);
+    try{
+      pr.potencia(0,2);
+      Assert.fail("Debería haber lanzado una excepción");
+    }catch(Exception e){
+      Assert.assertEquals("n o p no pueden ser cero", e.getMessage());
+    }
 }
 
 @Test
