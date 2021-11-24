@@ -1,2 +1,4 @@
-type: query
-expected: SELECT COUNT(*) FROM paises WHERE poblacion_2020 BETWEEN 30000000 AND 50000000;
+type: datasets
+  expected: |
+    count(*)
+    3
